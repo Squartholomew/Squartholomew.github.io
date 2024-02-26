@@ -45,7 +45,8 @@ p {
     grid-column-end: 3;
 }
 
-/*for mobile users. cringe */
+/*for mobile users. cringe 
+for computers, do min. width*/
 @media screen and (max-width:800px){
     .dogs {
         background-color: rgb(243, 161, 68);
