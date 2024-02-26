@@ -45,6 +45,20 @@ p {
     grid-column-end: 3;
 }
 
+.button {
+    /*top, right, bottom, left
+    since only 2 values, bottom and left get
+    assigned top+right values*/
+    padding: 10px 15px;
+    background-color: rgb(142, 150, 75);
+    text-decoration: none;
+    color: black;
+}
+
+#weezing {
+    width:100vw;
+}
+
 /*for mobile users. cringe 
 for computers, do min. width*/
 @media screen and (max-width:800px){
