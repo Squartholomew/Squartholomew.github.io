@@ -1,0 +1,54 @@
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+.cats {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 20% 50% 20%;
+    column-gap: 5%;
+}
+
+.dogs {
+    background-color: rgb(255, 0, 191);
+    width:50%;
+    text-align: right;
+}
+
+.plant {
+    background-color: rgb(113, 228, 91);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: center;
+}
+#plantfont {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#cactuse {
+    width:25vw;
+}
+
+#catonfire {
+    width:25vw;
+    /*% will use the % of container it's in
+    vw will use % of the view width */
+    border: 5px solid brown;
+
+}
+.column1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*for mobile users. cringe */
+@media screen and (max-width:800px){
+    .dogs {
+        background-color: rgb(243, 161, 68);
+    }
+
+}
